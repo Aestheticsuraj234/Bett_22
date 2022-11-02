@@ -1,3 +1,31 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+@layer base{
+    body{
+        @apply dark:bg-[#2C3333] dark:text-white
+    }
+    h1 {
+        @apply  dark:text-white
+    }
+    span{
+        @apply dark:text-gray-300
+    }
+    button:hover{
+        @apply dark:shadow-lg 
+    }
+   
+    
+}
+@layer components{
+
+    .btn{
+
+   @applyy h-7; hover:scale-125 cursor-pointer transition-all duration-150 ease-out
+
+
+    }
+}
